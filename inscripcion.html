@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/introLoader.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="c-header header">
+      <div class="c-container">
+        <div class="c-header__brand"><a href="index.html"><img class="logoFull" src="img/logo.svg" alt=""></a><a href="index.html"><img class="logoScroll" src="img/logo-min.svg" alt=""></a></div>
+        <div class="c-header__signUp"><a href="inscripciones.html"><span>Inscríbete</span></a></div>
+        <div class="c-header__downMenu"><img src="img/ham-icon.png" alt=""></div>
+      </div>
+    </header>
+    <div class="c-overlay">
+      <div class="c-overlay__brand"><a href="index.html"><img src="img/logo-blanco.svg" alt=""></a></div>
+      <div class="c-overlay__downMenu"><img src="img/img-x.png" alt=""></div>
+      <ul class="c-overlay__menu">
+        <li><a href="que-es-rial-fest.html">Qué es rial fest</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="inscripciones.html">Inscripciones</a></li>
+        <li><a href="bandas.html">Bandas</a></li>
+        <li><a href="calendario.html">Calendario</a></li>
+        <li><a href="noticias-rial.html">Noticias rial</a></li>
+        <li><a href="los-rials.html">Los rials</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <div class="c-overlay__rrss"><a href="">Spotify</a><a href="">Facebook /</a><a href="">Instagram /</a></div>
+    </div>
+    <div class="c-rrss"><a href="">Spotify</a><a href="">Facebook /</a><a href="">Instagram /</a></div>
+    <main>
+      <section class="c-inscriptions">
+        <div class="c-container">
+          <form id="msform">
+            <fieldset>
+              <h1>Información de contacto</h1>
+              <input type="text" name="nombre" placeholder="Tu nombre"><span class="error">.</span>
+              <input type="text" name="mail" placeholder="Tu mail"><span class="error">.</span>
+              <select>
+                <option class="option" value="1" name="" selected>Selecciona un festival</option>
+                <option class="option" value="1" name="">Festival 1</option>
+                <option class="option" value="2" name="">Festival 2</option>
+                <option class="option" value="3" name="">Festival 3</option>
+              </select><span class="error">.</span><a class="previous action-button" href="inscripciones.html">Volver</a><a class="next action-button">Continuar</a>
+            </fieldset>
+            <fieldset>
+              <h1>Información sobre tu banda</h1>
+              <div class="infoBand">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="text" name="banda" placeholder="Nombre de tu banda"><span class="error">.</span>
+                    </td>
+                    <td>
+                      <div class="documents">
+                        <div class="selectFiles">
+                          <label>Adjuntar MP3
+                            <input type="file" name="">
+                          </label>
+                        </div>
+                      </div><span class="error">.</span>
+                    </td>
+                    <td>
+                      <div class="documents">
+                        <div class="selectFiles">
+                          <label>Adjuntar Imagen Banda
+                            <input type="file" name="">
+                          </label>
+                        </div>
+                      </div><span class="error">.</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select>
+                        <option class="option" value="1" name="" selected>Selecciona Genero musical</option>
+                        <option class="option" value="1" name="">Rock</option>
+                        <option class="option" value="2" name="">Metal</option>
+                        <option class="option" value="3" name="">Punk</option>
+                      </select><span class="error">.</span>
+                    </td>
+                    <td>
+                      <div class="documents">
+                        <div class="selectFiles">
+                          <label>Adjuntar Autorización Padres
+                            <input type="file" name="">
+                          </label>
+                        </div>
+                      </div><span class="error">.</span>
+                    </td>
+                    <td>
+                      <div class="documents">
+                        <div class="selectFiles">
+                          <label>Adjuntar Carta Establecimiento
+                            <input type="file" name="">
+                          </label>
+                        </div>
+                      </div><span class="error">.</span>
+                    </td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <div class="descBand">
+                      <textarea id="textarea" maxlength="200" placeholder="Descripcion de la banda"></textarea>
+                      <div id="charNum"></div>
+                    </div><span class="error">.</span>
+                  </tr>
+                </table>
+              </div><a class="previous action-button">Atrás</a><a class="next action-button">Continuar</a>
+            </fieldset>
+            <fieldset>
+              <h1>Integrantes de tu banda</h1>
+              <div class="field_wrapper">
+                <div class="input-group">
+                  <input class="form-member" type="text" name="field_name[]" placeholder="Nombre" value="">
+                  <div class="cont-error"><span class="error">.</span></div>
+                  <input class="form-member" type="text" name="fechaNacimiento" placeholder="Fecha nacimiento">
+                  <div class="cont-error"><span class="error">.</span></div>
+                  <input class="form-member" type="text" name="escuela" placeholder="Escuela">
+                  <div class="cont-error"><span class="error">.</span></div>
+                  <input class="form-member" type="email" name="mail" placeholder="Mail">
+                  <div class="cont-error"><span class="error">.</span></div>
+                </div>
+              </div><a class="add_button" href="javascript:void(0);" title="Add field">+</a><a class="previous action-button">Atrás</a><a class="next action-button">Continuar</a>
+            </fieldset>
+            <fieldset>
+              <h1>Información sobre tu escuela</h1>
+              <input type="text" name="escuela" placeholder="Nombre de tu escuela"><span class="error">.</span>
+              <select>
+                <option class="option" value="4" name="" selected>Selecciona un Región</option>
+                <option class="option" value="5" name="">Región 1</option>
+                <option class="option" value="6" name="">Región 2</option>
+                <option class="option" value="7" name="">Región 3</option>
+              </select><span class="error">.</span>
+              <select>
+                <option class="option" value="8" name="" selected>Selecciona una Comuna</option>
+                <option class="option" value="9" name="">Comuna 1</option>
+                <option class="option" value="10" name="">Comuna 2</option>
+                <option class="option" value="11" name="">Comuna 3</option>
+              </select><span class="error">.</span><a class="previous action-button">Atrás</a>
+              <input class="next action-button" type="submit" name="submit" value="Enviar">
+            </fieldset>
+            <ul id="progressbar">
+              <li class="active"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </form><span class="questions">Si tienes alguna pregunta no dudes en <a class="contactUs" href="">contactarnos</a></span>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/libs/swiper/swiper.js"></script>
+    <script src="js/libs/spin.min.js"></script>
+    <script src="js/libs/jquery.introLoader.js"></script>
+    <script src="js/main.min.js"></script>
+    <footer class="c-footer">
+      <div class="c-container">
+        <div class="c-footer__brand"><a href="index.html"><img src="img/logo.svg" alt=""></a></div>
+        <div class="c-footer__col">
+          <h2>Rial Fest</h2>
+          <ul>
+            <li><a href="que-es-rial-fest.html">Qué es rial fest</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="noticias-rial.html">Noticias rial</a></li>
+            <li><a href="los-rials.html">Los rials</a></li>
+          </ul>
+        </div>
+        <div class="c-footer__col">
+          <h2>Información</h2>
+          <ul>
+            <li><a href="inscripciones.html">Inscripciones</a></li>
+            <li><a href="bandas.html">Bandas</a></li>
+            <li><a href="calendario.html">Calendario</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="c-footer__col">
+          <h2>Síguenos</h2>
+          <ul>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Spotify</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="c-container">
+        <p>© Todos los derechos reservados RIAL FEST | Sitio Desarrollado por <a href="">Lata Digital</a></p>
+      </div>
+    </div>
+  </body>
+</html>
